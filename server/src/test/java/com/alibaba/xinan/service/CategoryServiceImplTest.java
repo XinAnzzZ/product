@@ -1,14 +1,11 @@
-package com.alibaba.xinan.service.impl;
+package com.alibaba.xinan.service;
 
 import com.alibaba.xinan.ProductApplicationTests;
-import com.alibaba.xinan.service.CategoryService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.*;
 
 /**
  * @author XinAnzzZ
