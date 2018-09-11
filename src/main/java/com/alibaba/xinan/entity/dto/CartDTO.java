@@ -24,24 +24,4 @@ public class CartDTO implements Serializable {
         this.productId = productId;
         this.productQuantity = productQuantity;
     }
-
-    public static long getSerialVersionUID() {
-        return serialVersionUID;
-    }
-
-    public String getProductId() {
-        return productId;
-    }
-
-    public void setProductId(String productId) {
-        this.productId = productId;
-    }
-
-    public Integer getProductQuantity() {
-        return productQuantity;
-    }
-
-    public void setProductQuantity(Integer productQuantity) {
-        this.productQuantity = productQuantity;
-    }
 }
