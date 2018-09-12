@@ -9,26 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>product-server</artifactId>
+    <artifactId>product-client</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>com.alibaba.xinan</groupId>
+            <artifactId>product-server</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>com.alibaba.xinan</groupId>
             <artifactId>product-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>com.alibaba.xinan.ProductApplication</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
 </project>
