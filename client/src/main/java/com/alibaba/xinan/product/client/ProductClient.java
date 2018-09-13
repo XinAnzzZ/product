@@ -12,7 +12,7 @@ import java.util.List;
  * @author XinAnzzZ
  * @date 2018/9/13 14:22
  */
-@FeignClient
+@FeignClient(name = "product")
 public interface ProductClient {
 
     /**
@@ -29,6 +29,6 @@ public interface ProductClient {
      *
      * @param decreaseStockInputList 减库存对象
      */
-    @PostMapping("/product/decreaseStock")
+    @PostMapping("/product/decrease/stock")
     void decreaseStock(@RequestBody List<DecreaseStockInput> decreaseStockInputList);
 }
